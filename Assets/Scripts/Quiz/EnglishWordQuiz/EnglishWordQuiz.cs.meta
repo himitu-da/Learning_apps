@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ef97fcc89f889154b8ff65510db7df03
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - question: {instanceID: 0}
+  - result_canvas: {instanceID: 0}
+  - score_object: {instanceID: 0}
+  - play_canvas: {instanceID: 0}
+  - correct_audio: {instanceID: 0}
+  - wrong_audio: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731424780952",
+    "project_id": "all-in-one-english-d9aa1",
+    "storage_bucket": "all-in-one-english-d9aa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731424780952:android:9c8db7ebf8a872558096ed",
+        "android_client_info": {
+          "package_name": "com.himitu.Learning_apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1-fPxCsJjbMFvr4a6mPOMyNEwE1yyUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

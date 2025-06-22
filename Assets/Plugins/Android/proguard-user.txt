@@ -1,0 +1,4 @@
+-keep class org.sqlite.** { *; }
+-keep class org.sqlite.database.** { *; }
+-keep class org.sqlite.database.sqlite.** { *; }
+-keep class com.google.android.gms.ads.** { *; }

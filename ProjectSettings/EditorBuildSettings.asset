@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Navi/NaviDrill.unity
+    guid: e7c90db7e9ac3e14f89f8f5cc317a7dd
+  - enabled: 1
+    path: Assets/Scenes/4_choice_quiz.unity
+    guid: 7b367d08483c63a449b4c04f7f8c90a4
+  - enabled: 1
+    path: Assets/Scenes/Endress_Quiz_Scene.unity
+    guid: 249a100e53a8c1248af86f8eb32be548
+  - enabled: 1
+    path: Assets/Scenes/Speed_Up_Quiz_Scene.unity
+    guid: ef1c090958c36c94eac7f8548a36f40d
+  - enabled: 1
+    path: Assets/Scenes/Navi/NaviStatus.unity
+    guid: 80fd5923fb3d5f14db09f2289c5de0f5
+  - enabled: 1
+    path: Assets/Scenes/Navi/NaviTown.unity
+    guid: 0cae5a17d0d9e9647801969f1613c8dc
+  - enabled: 1
+    path: Assets/Scenes/Navi/NaviSetting.unity
+    guid: 3560e08fcd3365f48a88f0d41c923b67
+  - enabled: 1
+    path: Assets/Scenes/Navi/NaviFind.unity
+    guid: df0857509571db346b8b355873a1157e
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 195fa40ea9b2e3f4d83e8dd75a78bf72, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0e83e4154c9500e4c9d9362f4132ea6a, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: d337bb130d68aa94eb661fc2bcd7ea1e, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 4642ff377c621e845822c900ba80207e, type: 2}
