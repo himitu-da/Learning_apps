@@ -6,9 +6,6 @@ using UnityEngine;
 
 public class SaveLoadService
 {
-    private static readonly string key = "JMeDIxvbFKUdaMakIMxyUPtSuKAsae3b"; // 32文字のキーを使用
-    private static readonly string iv = "IIBSdmgGczUCLOwn";   // 16文字のIVを使用
-
     /// <summary>
     /// JsonとPathを入れれば良い感じに保存してくれる。ディレクトリは自動作成しない。
     /// </summary>
@@ -51,8 +48,8 @@ public class SaveLoadService
     {
         using (Aes aesAlg = Aes.Create())
         {
-            aesAlg.Key = Encoding.UTF8.GetBytes(key);
-            aesAlg.IV = Encoding.UTF8.GetBytes(iv);
+            aesAlg.Key = Encoding.UTF8.GetBytes(Secrets.AesKey);
+            aesAlg.IV = Encoding.UTF8.GetBytes(Secrets.AesIV);
 
             ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
 
@@ -74,8 +71,8 @@ public class SaveLoadService
     {
         using (Aes aesAlg = Aes.Create())
         {
-            aesAlg.Key = Encoding.UTF8.GetBytes(key);
-            aesAlg.IV = Encoding.UTF8.GetBytes(iv);
+            aesAlg.Key = Encoding.UTF8.GetBytes(Secrets.AesKey);
+            aesAlg.IV = Encoding.UTF8.GetBytes(Secrets.AesIV);
 
             ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
 
